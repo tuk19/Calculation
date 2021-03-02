@@ -1,0 +1,26 @@
+.show_number {
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 30px;
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: -1px;
+}
+
+.number_button {
+    width: 300px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    width: 25%;
+}
+
+button {
+    width: 100%;
+    font: 16px bold;
+}

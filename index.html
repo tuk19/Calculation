@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UFT-8">
+        <title>電卓</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+    </head>
+    <body>
+        <p class="show_number">0</p>
+        <div class="number_button">
+            <table>
+                <tr>
+                    <td><button class="number" id="Seven">7</button></td>
+                    <td><button class="number" id="Eight">8</button></td>
+                    <td><button class="number" id="Nine">9</button></td>
+                    <td><button class="operator" id="Plus">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="number" id="Four">4</button></td>
+                    <td><button class="number" id="Five">5</button></td>
+                    <td><button class="number" id="Six">6</button></td>
+                    <td><button class="operator" id="minus">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="number" id="One">1</button></td>
+                    <td><button class="number" id="Two">2</button></td>
+                    <td><button class="number" id="Three">3</button></td>
+                    <td><button class="operator" id="Asterisk">＊</button></td>
+                </tr>
+                <tr>
+                    <td><button class="number" id="Zero">0</button></td>
+                    <td><button class="number" id="DoubleZero">00</button></td>
+                    <td><button class="number" id="Point">.</button></td>
+                    <td><button class="operator" id="Slash">/</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="Allclear" id="AllClear">AC</button></td>
+                    <td colspan="2"><button class="Equal" id="Equal">=</button></td>
+                </tr>
+            </table>
+        </div>
+        <script type="text/javascript" src="main.js" charset="UTF-8"></script>
+    </body>
+</html>
